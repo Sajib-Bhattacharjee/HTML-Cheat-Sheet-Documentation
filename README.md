@@ -1,4 +1,4 @@
-# HTML Cheat-Sheet
+# HTML Documentation/Cheat-Sheet
 
 In detail all about the topic.
 
