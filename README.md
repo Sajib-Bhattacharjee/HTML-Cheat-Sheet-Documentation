@@ -1,6 +1,12 @@
-# HTML Documentation/Cheat-Sheet
+<p align="center">
+  <img src="images/logo__image.png" alt="HTML5 Logo Image" title="HTML5 Logo Image" width="100%" height="100%" />
+</p>
 
-In detail all about the topic.
+<div align="center">
+
+### `HTML Documentation/Cheat-Sheet`
+
+</div> 
 
 ## Table of Contents
 
@@ -455,10 +461,18 @@ Output:
 
 > For Emoji Unicode refer _[This Website(w3schools)](https://www.w3schools.com/charsets/ref_emoji.asp)_.
 
-### Created By
+ ---
 
-`-Sajib Bhattacharjee`
+<div align="center">
 
-`Dedicated for "Zahan"`
+##### `All rights reserved by Sajib Bhattacharjee @2024`
 
-### Thanks A Lot For Visiting...!!!
+### `Created By-->`
+
+**&copy;`-Sajib Bhattacharjee`**
+
+**`Dedicated for My Dear!!! 💕"Zahan" 💕`**
+
+> > > > ### Thanks A Lot For Visiting...!!!
+
+</div>
