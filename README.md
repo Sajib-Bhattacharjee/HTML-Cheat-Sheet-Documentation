@@ -6,9 +6,24 @@
 
 ### `HTML Documentation/Cheat-Sheet`
 
-</div> 
+</div>    
 
-## Table of Contents
+```node
+        HTML, short for HyperText Markup Language, is the foundation of web pages.
+        It defines the structure and content, not the visual design. Imagine HTML
+        as a skeleton, providing the framework for the muscles (CSS) and skin
+        (JavaScript) to bring a web page to life.
+    
+        HTML uses tags, written in angle brackets <>, to instruct browsers how to
+        display content. Headers, paragraphs, lists, images, and links are all created
+        with specific tags.
+    
+        A basic HTML document has a head containing meta information and a body for the
+        visible content. Though simple, HTML is powerful and forms the core of every 
+        website you visit.
+```
+
+## **`Table of Contents`**
 
 - [1.Introduction/Overview](#1introduction)
 - [2.Head](#2head)
@@ -27,7 +42,7 @@
   - [5.3-Definition list](#definition-list)
 - [6.Tables](#6tables)
   - [6.1-Basic table](#basic-table)
-  - [6.2-Accessible table/Advanced table](#advanced-table)
+  - [6.2-Accessible table/Advanced table](#accessible-table)
 - [7.Forms](#7forms)
 - [8.HTML5 Semantic Tags](#8html5-semantic-tags)
   - [8.1-HTML Page layout](#page-layout)
@@ -35,7 +50,7 @@
   - [8.3-Semantic Media Tags](#semantic-media-tags)
 - [9.Emojis](#9emojis)
 
-## 1.Introduction
+## `1.Introduction`
 
 ```html
 <!DOCTYPE html>
@@ -50,7 +65,7 @@
 </html>
 ```
 
-## 2.Head
+## `2.Head`
 
 ```html
 <head>
@@ -82,9 +97,9 @@
 | **meta**                                       | metadata                 |
 | **meta** _http-equiv_="refresh" _content_="10" | auto-refresh page in 10s |
 
-## 3.Text content
+## `3.Text content`
 
-### Headings
+### `Headings`
 
 ```html
 <h1>Main heading</h1>
@@ -97,7 +112,7 @@
 | **h1** | main heading            |
 | **h6** | least important heading |
 
-### Paragraphs
+### `Paragraphs`
 
 ```html
 <p>
@@ -115,7 +130,7 @@
 | **br** | line break      |
 | **hr** | horizontal line |
 
-### Formatting
+### `Formatting`
 
 ```html
 <em>Formatting</em> is <strong>important</strong> ! (a+b)<sup>2</sup> = a<sup
@@ -135,7 +150,7 @@
 | **i**      | italic      |
 | **b**      | bold        |
 
-### Quotes
+### `Quotes`
 
 ```html
 <cite>This book</cite> was written by this author.
@@ -152,9 +167,9 @@
 | **q**          | inline quotation |
 | **blockquote** | quotation        |
 
-## 4.Content
+## `4.Content`
 
-### Links
+### `Links`
 
 ```html
 <a href="url">link</a>
@@ -168,7 +183,7 @@
 | ----- | --------- |
 | **a** | hyperlink |
 
-### Images
+### `Images`
 
 ```html
 <img src="image.png" alt="description" width="300" height="200" />
@@ -178,7 +193,7 @@
 | ------- | ------- |
 | **img** | image   |
 
-### Blocks
+### `Blocks`
 
 ```html
 <div>block</div>
@@ -190,9 +205,9 @@
 | **div**  | block-level element |
 | **span** | inline element      |
 
-## 5.Lists
+## `5.Lists`
 
-### Unordered list
+### `Unordered list`
 
 ```html
 <ul>
@@ -207,7 +222,7 @@
 | **ul** | unordered list |
 | **li** | list item      |
 
-### Ordored list
+### `Ordered list`
 
 ```html
 <ol>
@@ -222,7 +237,7 @@
 | **ol** | ordered list |
 | **li** | list item    |
 
-### Definition list
+### `Definition list`
 
 ```html
 <dl>
@@ -241,9 +256,9 @@
 | **dt** | term            |
 | **dd** | definition      |
 
-## 6.Tables
+## `6.Tables`
 
-### Basic table
+### `Basic table`
 
 ```html
 <table>
@@ -269,7 +284,7 @@
 | **th**    | table heading |
 | **td**    | table cell    |
 
-### Accessible Table
+### `Accessible Table`
 
 ```html
 <table>
@@ -318,7 +333,7 @@
 | **tfoot**    | groups footers together     |
 | **tbody**    | groups other rows           |
 
-## 7.Forms
+## `7.Forms`
 
 ```html
 <form action="url" method="post">
@@ -362,9 +377,9 @@
 | **datalist**                | autocompletion list           |
 | **textarea**                | large text input              |
 
-## 8.HTML5 Semantic Tags
+## `8.HTML5 Semantic Tags`
 
-### Page layout
+### `Page layout`
 
 ```html
 <header>My website</header>
@@ -402,7 +417,7 @@
 | **aside**   | aside content related to surrounding content |
 | **nav**     | navigation links                             |
 
-### More Semantic Tags
+### `More Semantic Tags`
 
 ```html
 <figure>
@@ -431,7 +446,7 @@ Downloading progress : <progress value="53" max="100"></progress> Disk space :
 | **meter**      | display a gauge                      |
 | **time**       | machine-readable time indication     |
 
-### Semantic Media Tags
+### `Semantic Media Tags`
 
 ````html
 <figure></figure> Embeds annotated images, illustrations, photos, code, etc.
@@ -449,13 +464,13 @@ Downloading progress : <progress value="53" max="100"></progress> Disk space :
 ```
 ````
 
-## 9.Emojis
+## `9.Emojis`
 
 ```html
 <p style="font-size:48px">&#128512; &#128516; &#128525; &#128151;</p>
 ```
 
-Output:
+`Output:`
 
 <p style="font-size:48px">&#128512; &#128516; &#128525; &#128151;</p>
 
